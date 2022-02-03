@@ -39,14 +39,13 @@
     </header>
 
     <section class="contact__section">
-        <form>
-            <ul class="contact">
-                <li class="contact__name"><label for="name"></label><input type="text" id="name" placeholder="Nombre"></li>
-                <li class="contact__lastname"><label for="lastname"></label><input type="text" id="lastname" placeholder="Apellido"></li>
-                <li class="contact__email"><label for="email"></label><input type="email" id="email" placeholder="Email"></li>
-                <li class="contact__text"><textarea placeholder="Escribe tu mensaje"></textarea></li>
-                <li class="contact__buttons"><input type="reset" value="Borrar todo"><input type="submit" value="OK"></li>
-            </ul>
+        <form class="mb-3">
+                <label for="name" class="form-label"></label><input type="text" id="name" placeholder="Nombre" class="form-control">
+                <label for="lastname" class="form-label"></label><input type="text" id="lastname" placeholder="Apellido" class="form-control">
+                <label for="email" class="form-label"></label><input type="email" id="email" placeholder="Email" class="form-control">
+                <textarea placeholder="Escribe tu mensaje" class="form-control" rows="3"></textarea>
+                <label class="btn btn-outline-danger" for="delete">Borrar todo</label><input class="btn-check" type="reset" value="Borrar todo" id="delete">
+                <label class="btn btn-outline-success" for="success-outlined">Enviar</label><input type="submit" value="OK" class="btn-check" id="success-outlined" checked>
         </form>
     </section>
 
