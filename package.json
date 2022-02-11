@@ -1,0 +1,25 @@
+{
+  "name": "myfirstpage",
+  "version": "1.0.0",
+  "description": "This is my first page/portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-patch scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeronimoValeiras/MyFirstPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeronimoValeiras/MyFirstPage/issues"
+  },
+  "homepage": "https://github.com/GeronimoValeiras/MyFirstPage#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,17 @@
+footer {
+    position: sticky;
+    right: 0;
+    bottom: 0;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        li {
+            margin: 10px;
+            width: 30px;
+            list-style: none;
+        }
+    }
+}
