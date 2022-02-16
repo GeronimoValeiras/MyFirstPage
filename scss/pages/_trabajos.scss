@@ -1,0 +1,19 @@
+.carousel-inner {
+    width: 80vw;
+    height: 500px;
+    margin: 0 10vw;
+
+    .carousel-item {
+        object-fit: fill;
+    }
+}
+
+
+.carousel__button {
+    background-color: $colorprincipal;
+    border-radius: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: $colorprincipal;
+}

@@ -85,3 +85,46 @@ footer {
     .presentation__text {
       margin: 0;
       text-align: center; } }
+
+.form-control {
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+  .form-control:focus {
+    border-color: #2868dd;
+    border-radius: 10px;
+    box-shadow: #182bd3; }
+
+.cv {
+  border-radius: 20px;
+  border: #182bd3 solid 10px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%; }
+  .cv__card__list {
+    list-style: circle; }
+
+@media only screen and (min-width: 960px) {
+  .main__cv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between; }
+    .main__cv .cv {
+      width: 40vw; } }
+
+.table {
+  background-color: #2868dd;
+  margin-top: 20px; }
+
+.carousel-inner {
+  width: 80vw;
+  height: 500px;
+  margin: 0 10vw; }
+  .carousel-inner .carousel-item {
+    object-fit: fill; }
+
+.carousel__button {
+  background-color: #182bd3;
+  border-radius: 20px; }
+
+.carousel-indicators [data-bs-target] {
+  background-color: #182bd3; }

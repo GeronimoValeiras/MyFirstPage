@@ -1,0 +1,11 @@
+.form-control {
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+    &:focus {
+        border-color: $colorsecundario;
+        border-radius: 10px;
+        box-shadow: $colorprincipal;
+    }
+}
+
+
