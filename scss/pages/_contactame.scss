@@ -2,9 +2,9 @@
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
     &:focus {
-        border-color: $colorsecundario;
+        border-color: map-get($paletacolores, colorsecundario);
         border-radius: 10px;
-        box-shadow: $colorprincipal;
+        box-shadow: map-get($paletacolores, colorprincipal);
     }
 }
 

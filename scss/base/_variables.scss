@@ -1,2 +1,22 @@
-$colorprincipal: #182bd3;
-$colorsecundario: #2868dd
+$paletacolores: (
+    colorprincipal: #182bd3,
+    colorsecundario: #2868dd
+);
+
+%cuadrotexto {
+    border-radius: 20px;
+    border: #182bd3 solid 10px;
+    padding: 10px;
+};
+
+@mixin flexbox ($direction, $wrap, $justify, $items) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $items;
+}
+
+
+    
+    

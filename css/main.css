@@ -1,3 +1,8 @@
+.presentation__text, .cv {
+  border-radius: 20px;
+  border: #182bd3 solid 10px;
+  padding: 10px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -29,20 +34,22 @@ header {
     flex-direction: column; }
     header h1 {
       margin-right: 0; }
-    header .navbar-nav {
-      margin-left: 0; }
-      header .navbar-nav .nav-item {
-        display: flex; }
-        header .navbar-nav .nav-item .nav-link {
-          display: none; }
-      header .navbar-nav .navbar__list {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 100vw;
-        position: sticky;
-        top: 0;
-        margin-left: 0; } }
+    header .navbar__main {
+      padding-left: 0; }
+      header .navbar__main .navbar-nav {
+        margin-left: 0; }
+        header .navbar__main .navbar-nav .nav-item {
+          display: flex; }
+          header .navbar__main .navbar-nav .nav-item .nav-link {
+            display: none; }
+        header .navbar__main .navbar-nav .navbar__list {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          width: 100vw;
+          position: sticky;
+          top: 0;
+          margin-left: 0; } }
 
 footer {
   position: sticky;
@@ -70,21 +77,21 @@ footer {
     grid-row: 2 / 3;
     grid-column: 2 / 5;
     margin-top: 10%;
-    border: #182bd3 solid 10px;
-    border-radius: 20px;
-    text-align: center;
-    padding: 5%; }
+    text-align: center; }
 
 @media only screen and (min-width: 960px) {
   .presentation {
     display: flex;
     flex-direction: row;
+    flex-wrap: no-wrap;
     justify-content: space-evenly;
     margin-top: 80px;
     width: 80vw; }
     .presentation__text {
       margin: 0;
-      text-align: center; } }
+      text-align: center; }
+      .presentation__text p {
+        font-size: 2.5rem; } }
 
 .form-control {
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
@@ -94,10 +101,7 @@ footer {
     box-shadow: #182bd3; }
 
 .cv {
-  border-radius: 20px;
-  border: #182bd3 solid 10px;
   margin-top: 20px;
-  padding: 10px;
   width: 100%; }
   .cv__card__list {
     list-style: circle; }
@@ -106,10 +110,10 @@ footer {
   .main__cv {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: 100%; }
     .main__cv .cv {
-      width: 40vw; } }
+      width: 30vw; } }
 
 .table {
   background-color: #2868dd;

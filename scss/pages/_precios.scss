@@ -1,4 +1,4 @@
 .table {
-    background-color: $colorsecundario;
+    background-color: map-get($paletacolores, colorsecundario);
     margin-top: 20px;
 }

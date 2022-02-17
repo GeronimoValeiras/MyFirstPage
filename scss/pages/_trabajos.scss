@@ -10,10 +10,10 @@
 
 
 .carousel__button {
-    background-color: $colorprincipal;
+    background-color: map-get($paletacolores, colorprincipal);
     border-radius: 20px;
 }
 
 .carousel-indicators [data-bs-target] {
-    background-color: $colorprincipal;
+    background-color: map-get($paletacolores, colorprincipal);
 }
