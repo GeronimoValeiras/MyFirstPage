@@ -1,5 +1,5 @@
 header {
-    @include flexbox (row-reverse, null, space-between, null)
+    @include flexbox (row-reverse, null, space-between, null);
     background-color: map-get($paletacolores, colorprincipal);
 
     h1 {
@@ -45,7 +45,7 @@ header {
                 }
 
                 .navbar__list {
-                @include flexbox (row, null, space-evenly, null)
+                @include flexbox (row, null, space-evenly, null);
                 width: 100vw;
                 position: sticky;
                 top: 0;
