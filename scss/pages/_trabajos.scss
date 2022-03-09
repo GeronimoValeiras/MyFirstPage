@@ -1,7 +1,10 @@
 .carousel-inner {
-    width: 80vw;
-    height: 500px;
-    margin: 0 10vw;
+    max-width: 80vw;
+    max-height: 500px;
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
     .carousel-item {
         object-fit: fill;
